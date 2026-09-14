@@ -1,0 +1,14 @@
+src/
+node_modules/
+.wrangler/
+.git/
+package.json
+package-lock.json
+wrangler.toml
+wrangler.json
+wrangler.jsonc
+DEPLOY.md
+*.draft.*
+index.html.current
+index.html.patchnote.txt
+scripts/

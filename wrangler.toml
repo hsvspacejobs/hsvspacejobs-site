@@ -1,0 +1,20 @@
+# HSV Space Jobs — Worker + Static Assets (not assets-only)
+# Confirmed existing Cloudflare Worker/project name:
+name = "hsvspacejobs-site"
+
+# Server-side entry (required for runtime secrets / vars in Cloudflare)
+main = "src/worker.js"
+compatibility_date = "2026-09-14"
+
+# Static site files are served from the repo root asset bundle.
+# run_worker_first: only /api/* hits this Worker before assets.
+# All other routes (/, /index.html, /jobs.json, /advertise.html) are served as static assets.
+[assets]
+directory = "."
+binding = "ASSETS"
+run_worker_first = ["/api/*"]
+
+# Runtime secrets (NOT in this file; add in Cloudflare AFTER first Worker+code deploy):
+#   wrangler secret put TURNSTILE_SECRET_KEY
+#   wrangler secret put RESEND_API_KEY
+#   wrangler secret put MAIL_FROM

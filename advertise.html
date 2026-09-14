@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advertise a Job | HSV Space Jobs</title>
+  <meta name="description" content="Submit a Huntsville / North Alabama aerospace or defense job for paid featured listing review on HSV Space Jobs." />
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #07111f;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+    header {
+      background: #0b1728;
+      border-bottom: 1px solid #22324a;
+      padding: 18px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .logo { font-size: 24px; font-weight: 800; letter-spacing: 0.5px; text-decoration: none; color: #fff; }
+    .logo span { color: #ff7a18; }
+    nav a {
+      color: #dce6f3;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 600;
+    }
+    main { padding: 50px 7% 80px; max-width: 720px; margin: 0 auto; }
+    h1 { font-size: clamp(28px, 5vw, 42px); margin: 0 0 12px; }
+    .lede { color: #b9c7d8; margin: 0 0 28px; }
+    .card {
+      background: #101d30;
+      border: 1px solid #263a57;
+      border-radius: 12px;
+      padding: 28px;
+    }
+    label { display: block; font-weight: 700; margin: 0 0 6px; }
+    .field { margin-bottom: 18px; }
+    input[type="text"], input[type="email"], input[type="url"] {
+      width: 100%;
+      padding: 12px 14px;
+      border-radius: 8px;
+      border: 1px solid #50627c;
+      background: #0b1728;
+      color: #fff;
+      font-size: 16px;
+    }
+    input:focus { outline: 2px solid #ff7a18; border-color: #ff7a18; }
+    .hint { color: #8193aa; font-size: 13px; margin: 6px 0 0; }
+    .hp {
+      position: absolute;
+      left: -10000px;
+      top: auto;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+    }
+    .button {
+      display: inline-block;
+      background: #ff7a18;
+      color: white;
+      text-decoration: none;
+      font-weight: 700;
+      padding: 14px 24px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .button:disabled { opacity: 0.6; cursor: not-allowed; }
+    .button.secondary {
+      background: transparent;
+      border: 1px solid #50627c;
+      margin-left: 10px;
+    }
+    .msg {
+      display: none;
+      margin-top: 18px;
+      padding: 14px 16px;
+      border-radius: 8px;
+    }
+    .msg.ok { display: block; background: #0f2a1d; border: 1px solid #1f6b45; color: #b6f0d0; }
+    .msg.err { display: block; background: #2a1212; border: 1px solid #7a3030; color: #ffc9c9; }
+    .fineprint { color: #8193aa; font-size: 13px; margin-top: 18px; }
+    footer {
+      border-top: 1px solid #22324a;
+      padding: 30px 7%;
+      text-align: center;
+      color: #8193aa;
+      font-size: 14px;
+    }
+    footer a { color: #ff9b52; }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="logo" href="/">HSV <span>SPACE</span> JOBS</a>
+    <nav>
+      <a href="/#jobs">Jobs</a>
+      <a href="/#employers">Employers</a>
+      <a href="/#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Advertise a Job</h1>
+    <p class="lede">
+      Submit a qualifying Huntsville / North Alabama aerospace or defense opening for a paid featured listing.
+      Featured listings are planned at <strong>$99 for 30 days</strong>. Payment is not collected on this form yet —
+      we will review your submission and follow up by email.
+    </p>
+
+    <div class="card">
+      <form id="advertise-form" novalidate>
+        <div class="field">
+          <label for="company">Company name</label>
+          <input id="company" name="company" type="text" maxlength="200" required autocomplete="organization" />
+        </div>
+        <div class="field">
+          <label for="title">Job title</label>
+          <input id="title" name="title" type="text" maxlength="200" required />
+        </div>
+        <div class="field">
+          <label for="location">Job location</label>
+          <input id="location" name="location" type="text" maxlength="200" required placeholder="Huntsville, AL" />
+        </div>
+        <div class="field">
+          <label for="job_url">Official job posting URL</label>
+          <input id="job_url" name="job_url" type="url" maxlength="2000" required placeholder="https://" />
+          <p class="hint">Must be a direct link on the employer’s official career site (not Indeed/LinkedIn aggregators).</p>
+        </div>
+        <div class="field">
+          <label for="contact_name">Employer contact name</label>
+          <input id="contact_name" name="contact_name" type="text" maxlength="200" required autocomplete="name" />
+        </div>
+        <div class="field">
+          <label for="contact_email">Employer contact email</label>
+          <input id="contact_email" name="contact_email" type="email" maxlength="320" required autocomplete="email" />
+        </div>
+
+        <!-- Honeypot: leave empty. Hidden from users; bots often fill it. -->
+        <div class="hp" aria-hidden="true">
+          <label for="website">Website</label>
+          <input id="website" name="website" type="text" tabindex="-1" autocomplete="off" />
+        </div>
+
+        <div class="field">
+          <!-- Replace TURNSTILE_SITE_KEY after creating a Turnstile widget for hsvspacejobs.com -->
+          <div class="cf-turnstile" data-sitekey="TURNSTILE_SITE_KEY" data-theme="dark"></div>
+        </div>
+
+        <button class="button" id="submit-btn" type="submit">Submit for review</button>
+        <a class="button secondary" href="/">Back to jobs</a>
+
+        <div id="success" class="msg ok" role="status">
+          Submission received. We will review it and follow up by email. No payment has been processed.
+        </div>
+        <div id="error" class="msg err" role="alert"></div>
+      </form>
+
+      <p class="fineprint">
+        HSV Space Jobs is an independent advertising service and is not affiliated with employers unless a separate
+        agreement says so. Job seekers are never charged. Applicants are directed to the employer’s official apply URL.
+        Do not submit confidential salary or candidate data on this form.
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <div>© 2026 HSV Space Jobs · Huntsville, Alabama</div>
+    <div><a href="mailto:hsvspacejobs@outlook.com">hsvspacejobs@outlook.com</a></div>
+  </footer>
+
+  <script>
+    (function () {
+      const form = document.getElementById('advertise-form');
+      const btn = document.getElementById('submit-btn');
+      const success = document.getElementById('success');
+      const error = document.getElementById('error');
+
+      function showError(message) {
+        success.style.display = 'none';
+        success.className = 'msg ok';
+        error.textContent = message;
+        error.style.display = 'block';
+        error.className = 'msg err';
+      }
+
+      function showSuccess() {
+        error.style.display = 'none';
+        success.style.display = 'block';
+        success.className = 'msg ok';
+        form.querySelectorAll('input, button').forEach((el) => {
+          if (el.id !== 'submit-btn') el.disabled = true;
+        });
+        btn.disabled = true;
+      }
+
+      form.addEventListener('submit', async (event) => {
+        event.preventDefault();
+        error.style.display = 'none';
+
+        const turnstileInput = form.querySelector('[name="cf-turnstile-response"]');
+        const turnstileToken = turnstileInput ? turnstileInput.value : '';
+
+        const payload = {
+          company: form.company.value.trim(),
+          title: form.title.value.trim(),
+          location: form.location.value.trim(),
+          job_url: form.job_url.value.trim(),
+          contact_name: form.contact_name.value.trim(),
+          contact_email: form.contact_email.value.trim(),
+          website: form.website.value, // honeypot
+          turnstile_token: turnstileToken,
+        };
+
+        if (!payload.company || !payload.title || !payload.location || !payload.job_url || !payload.contact_name || !payload.contact_email) {
+          showError('Please complete all required fields.');
+          return;
+        }
+
+        btn.disabled = true;
+        btn.textContent = 'Submitting…';
+
+        try {
+          const res = await fetch('/api/advertise', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+            body: JSON.stringify(payload),
+          });
+          const data = await res.json().catch(() => ({}));
+          if (!res.ok || !data.ok) {
+            showError(data.error || 'Submission failed. Please try again or email hsvspacejobs@outlook.com.');
+            btn.disabled = false;
+            btn.textContent = 'Submit for review';
+            if (window.turnstile) window.turnstile.reset();
+            return;
+          }
+          showSuccess();
+        } catch (err) {
+          showError('Network error. Please try again or email hsvspacejobs@outlook.com.');
+          btn.disabled = false;
+          btn.textContent = 'Submit for review';
+          if (window.turnstile) window.turnstile.reset();
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
