@@ -1,298 +1,39 @@
 {
   "jobs": [
     {
-      "company": "Boeing",
-      "title": "Lead or Senior Systems Integrator - PAC-3",
+      "company": "Blue Origin",
+      "title": "Expeditor/Material Handler (Tube Shop) - A Shift",
       "location": "Huntsville, AL",
       "salary": null,
-      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Lead-or-Senior-Systems-Integrator---PAC-3_JR2026516894-1"
-    },
-    {
-      "company": "Boeing",
-      "title": "Electrical Engineer (Experienced or Senior)",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Electrical-Engineer--Experienced-or-Senior-_JR2026515922-1"
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Expeditor-Material-Handler--Tube-Shop----A-Shift_R71351-1"
     },
     {
       "company": "Blue Origin",
-      "title": "Sr Manufacturing Engineer",
+      "title": "Associate - Technician - C Shift",
       "location": "Huntsville, AL",
       "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Sr-Manufacturing-Engineer_R70536"
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Associate---Technician---C-Shift_R70662"
     },
     {
       "company": "Blue Origin",
-      "title": "CNC Machinist & Programmer III",
+      "title": "Associate - Technician",
       "location": "Huntsville, AL",
       "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/CNC-Machinist---Programmer-III_R70665"
-    },
-    {
-      "company": "Northrop Grumman",
-      "title": "Systems Hardware Engineer 4 - Space AHT",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/Systems-Hardware-Engineer-4---Space-AHT_R10245259"
-    },
-    {
-      "company": "Northrop Grumman",
-      "title": "Systems Engineer 4 - RF Communications - Space AHT",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/Systems-Engineer-4---RF-Communications---Space-AHT_R10248533"
-    },
-    {
-      "company": "Leidos",
-      "title": "Principal RF Engineer",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Principal-RF-Engineer_R-00185016"
-    },
-    {
-      "company": "Leidos",
-      "title": "Robotics Computer Engineer",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Robotics-Computer-Engineer_R-00183762"
-    },
-    {
-      "company": "Leidos",
-      "title": "Master Production Scheduler",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/Master-Production-Scheduler_R-00186954"
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Associate---Technician_R70598"
     },
     {
       "company": "Blue Origin",
       "title": "Manufacturing Engineer II",
       "location": "Huntsville, AL",
       "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/en-US/BlueOrigin/job/Huntsville-AL/Manufacturing-Engineer-II_R71014"
-    },
-    {
-      "company": "L3Harris Technologies",
-      "title": "Specialist, Manufacturing Engineering at L3Harris Technologies",
-      "location": "Huntsville, AL - AMF South",
-      "salary": null,
-      "url": "https://careers.l3harris.com/en/job/huntsville/specialist-manufacturing-engineering/4832/99538369104"
-    },
-    {
-      "company": "Blue Origin",
-      "title": "Manufacturing Engineer II - Turbomachinery",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/en-US/BlueOrigin/job/Huntsville-AL/Manufacturing-Engineer-II---Turbomachinery_R71491-1"
-    },
-    {
-      "company": "Blue Origin",
-      "title": "Production Control Lv2 C shift Fri-Sun",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/en-US/BlueOrigin/job/Huntsville-AL/Production-Control-Lv2-C-shift-Fri-Sun_R70296"
-    },
-    {
-      "company": "Northrop Grumman",
-      "title": "Engineer Manufacturing",
-      "location": "United States-Alabama-Madison",
-      "salary": null,
-      "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Alabama-Madison/Engineer-Manufacturing_R10250512"
-    },
-    {
-      "company": "Northrop Grumman",
-      "title": "Quality Inspector 3/4",
-      "location": "United States-Alabama-Madison",
-      "salary": null,
-      "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Alabama-Madison/Quality-Inspector-3-4_R10249893"
-    },
-    {
-      "company": "Leidos",
-      "title": "Additive Manufacturing Engineer",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/Additive-Manufacturing-Engineer_R-00191423"
-    },
-    {
-      "company": "Leidos",
-      "title": "Junior Software Engineer",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/external/job/Huntsville-AL/Junior-Software-Engineer_R-00191407"
-    },
-    {
-      "company": "L3Harris Technologies",
-      "title": "Sr. Specialist, Software Engineering at L3Harris Technologies",
-      "location": "Huntsville, Alabama - HQ",
-      "salary": null,
-      "url": "https://careers.l3harris.com/en/job/huntsville/sr-specialist-software-engineering/4832/99693729648"
-    },
-    {
-      "company": "Leidos",
-      "title": "PCBA Soldering Technician-2nd shift",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/PCBA-Soldering-Technician-2nd-shift_R-00174494"
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/en-US/BlueOrigin/job/Huntsville-AL/Manufacturing-Engineer-II_R71013"
     },
     {
       "company": "Boeing",
-      "title": "Associate Systems Engineer at Boeing",
-      "location": "Huntsville, Alabama (onsite)",
-      "salary": "$91,800 - $124,200",
-      "url": "https://jobs.boeing.com/en/job/huntsville/associate-systems-engineer/185/92218285520"
-    },
-    {
-      "company": "Boeing",
-      "title": "Associate Systems Engineer - Processor IPT",
+      "title": "Associate Systems Engineer",
       "location": "USA - Huntsville, AL",
       "salary": "$91,800 - $124,200",
-      "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Associate-Systems-Engineer---Processor-IPT_JR2026517292-1"
-    },
-    {
-      "company": "Northrop Grumman",
-      "title": "Associate Software Engineer / Software Engineer",
-      "location": "United States-Alabama-Huntsville",
-      "salary": null,
-      "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/Associate-Software-Engineer---Software-Engineer_R10249088"
-    },
-    {
-      "company": "Boeing",
-      "title": "Senior Seeker Radar Systems Engineer",
-      "location": "USA - Huntsville, AL",
-      "salary": "$136,850 - $185,150",
-      "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Senior-Seeker-Radar-Systems-Engineer_JR2026512682-1"
-    },
-    {
-      "company": "Northrop Grumman",
-      "title": "Principal Systems Engineer (AHT)",
-      "location": "United States-Alabama-Huntsville",
-      "salary": null,
-      "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/Principal-Systems-Engineer--AHT-_R10249980"
-    },
-    {
-      "company": "Northrop Grumman",
-      "title": "Principal Test Engineer/Senior Principal Test Engineer - AHT (GBAD)",
-      "location": "United States-Alabama-Huntsville",
-      "salary": null,
-      "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/Principal-Test-Engineer-Senior-Principal-Test-Engineer---AHT--CBAD-_R10241124-1"
-    },
-    {
-      "company": "Blue Origin",
-      "title": "Technician - Assembly and Integration II",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/en-US/BlueOrigin/job/Huntsville-AL/Technician---Assembly-and-Integration-II_R71009"
-    },
-    {
-      "company": "Boeing",
-      "title": "Electrical Test Engineer (Associate)",
-      "location": "USA - Huntsville, AL",
-      "salary": "$91,800 to $124,200",
-      "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Electrical-Test-Engineer--Associate-_JR2026515396"
-    },
-    {
-      "company": "L3Harris",
-      "title": "Specialist, Manufacturing Engineer (1st Shift) at L3Harris Technologies",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://careers.l3harris.com/en/job/huntsville/specialist-manufacturing-engineer-1st-shift/4832/99806110384"
-    },
-    {
-      "company": "Blue Origin",
-      "title": "Manufacturing Engineer II - Turbomachinery",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/en-US/BlueOrigin/job/Huntsville-AL/Manufacturing-Engineer-II---Turbomachinery_R71042"
-    },
-    {
-      "company": "Boeing",
-      "title": "Systems Engineer (Senior or Principal)",
-      "location": "USA - Huntsville, AL",
-      "salary": "$164,900 - $223,100",
-      "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Systems-Engineer--Senior-or-Principal-_JR2026498661-1"
-    },
-    {
-      "company": "L3Harris Technologies",
-      "title": "Specialist, Systems Engineer Control Analyst /GNC at L3Harris Technologies",
-      "location": "Huntsville, Alabama",
-      "salary": null,
-      "url": "https://careers.l3harris.com/en/job/huntsville/specialist-systems-engineer-control-analyst-gnc/4832/98852971232"
-    },
-    {
-      "company": "Blue Origin",
-      "title": "Engines Quality Engineer III - B-Shift",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/en-US/BlueOrigin/job/Huntsville-AL/Engines-Quality-Engineer-III--Weekend-Night-Shift-_R67643"
-    },
-    {
-      "company": "Blue Origin",
-      "title": "Aerospace Welder (Flex Lines) - A Shift",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/en-US/BlueOrigin/job/Huntsville-AL/Aerospace-Welder--Flex-Lines----A-Shift_R71349"
-    },
-    {
-      "company": "Mazda Toyota Manufacturing (MTM)",
-      "title": "Specialist, Quality Engineering",
-      "location": "Huntsville",
-      "salary": null,
-      "url": "https://mtmus.wd5.myworkdayjobs.com/en-US/ExternalCareers/job/Huntsville/Specialist--Quality-Engineering_REQ002765"
-    },
-    {
-      "company": "Northrop Grumman",
-      "title": "Systems Engineer - Level 3 or 4  (AHT)",
-      "location": "United States-Alabama-Huntsville",
-      "salary": null,
-      "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/Systems-Engineer---Level-3-or-4---AHT-_R10248173"
-    },
-    {
-      "company": "Northrop Grumman",
-      "title": "Systems Engineer - RF Communications - Level 5",
-      "location": "United States-Alabama-Huntsville",
-      "salary": null,
-      "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/Systems-Engineer---RF-Communications---Level-5_R10250370"
-    },
-    {
-      "company": "Leidos",
-      "title": "Applied Aerodynamics Eng",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/Applied-Aerodynamics-Eng_R-00191282"
-    },
-    {
-      "company": "Leidos",
-      "title": "Sr. Supplier Quality Engineer",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/Sr-Supplier-Quality-Engineer_R-00185079"
-    },
-    {
-      "company": "Leidos",
-      "title": "PCBA Soldering Technician",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/PCBA-Aoldering-Technician_R-00170309"
-    },
-    {
-      "company": "Leidos",
-      "title": "Cable Assembly Technician-Weekend shift",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/Cable-Assembly-Technician-Weekend-shift_R-00174900-1"
-    },
-    {
-      "company": "Boeing",
-      "title": "IFPC Integrated Product Team (IPT) Manager at Boeing",
-      "location": "Huntsville, Alabama (onsite)",
-      "salary": null,
-      "url": "https://jobs.boeing.com/job/huntsville/ifpc-integrated-product-team-ipt-manager/185/100451474032"
-    },
-    {
-      "company": "Boeing",
-      "title": "Experienced Radar Seeker System Engineer",
-      "location": "USA - Huntsville, AL",
-      "salary": "$112,200 - $151,800",
-      "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Experienced-Radar-Seeker-System-Engineer_JR2026512681-1"
+      "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Associate-Systems-Engineer_JR2026498638-1"
     },
     {
       "company": "Boeing",
@@ -323,18 +64,291 @@
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/Test-Engineering-Specialist-weekend-shift_R-00175913"
     },
     {
+      "company": "Leidos",
+      "title": "PCBA Soldering Technician",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/PCBA-Aoldering-Technician_R-00170309"
+    },
+    {
+      "company": "Leidos",
+      "title": "Cable Assembly Technician-Weekend shift",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/Cable-Assembly-Technician-Weekend-shift_R-00174900-1"
+    },
+    {
+      "company": "Boeing",
+      "title": "IFPC Integrated Product Team (IPT) Manager at Boeing",
+      "location": "Huntsville, Alabama (onsite)",
+      "salary": null,
+      "url": "https://jobs.boeing.com/job/huntsville/ifpc-integrated-product-team-ipt-manager/185/100451474032"
+    },
+    {
+      "company": "Boeing",
+      "title": "Experienced Radar Seeker System Engineer",
+      "location": "USA - Huntsville, AL",
+      "salary": "$112,200 - $151,800",
+      "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Experienced-Radar-Seeker-System-Engineer_JR2026512681-1"
+    },
+    {
+      "company": "Northrop Grumman",
+      "title": "Systems Engineer - Level 3 or 4  (AHT)",
+      "location": "United States-Alabama-Huntsville",
+      "salary": null,
+      "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/Systems-Engineer---Level-3-or-4---AHT-_R10248173"
+    },
+    {
+      "company": "Northrop Grumman",
+      "title": "Systems Engineer - RF Communications - Level 5",
+      "location": "United States-Alabama-Huntsville",
+      "salary": null,
+      "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/Systems-Engineer---RF-Communications---Level-5_R10250370"
+    },
+    {
+      "company": "Leidos",
+      "title": "Applied Aerodynamics Eng",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/Applied-Aerodynamics-Eng_R-00191282"
+    },
+    {
+      "company": "Leidos",
+      "title": "Sr. Supplier Quality Engineer",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/Sr-Supplier-Quality-Engineer_R-00185079"
+    },
+    {
+      "company": "L3Harris Technologies",
+      "title": "Specialist, Systems Engineer Control Analyst /GNC at L3Harris Technologies",
+      "location": "Huntsville, Alabama",
+      "salary": null,
+      "url": "https://careers.l3harris.com/en/job/huntsville/specialist-systems-engineer-control-analyst-gnc/4832/98852971232"
+    },
+    {
+      "company": "Blue Origin",
+      "title": "Engines Quality Engineer III - B-Shift",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/en-US/BlueOrigin/job/Huntsville-AL/Engines-Quality-Engineer-III--Weekend-Night-Shift-_R67643"
+    },
+    {
+      "company": "Blue Origin",
+      "title": "Aerospace Welder (Flex Lines) - A Shift",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/en-US/BlueOrigin/job/Huntsville-AL/Aerospace-Welder--Flex-Lines----A-Shift_R71349"
+    },
+    {
+      "company": "Mazda Toyota Manufacturing (MTM)",
+      "title": "Specialist, Quality Engineering",
+      "location": "Huntsville",
+      "salary": null,
+      "url": "https://mtmus.wd5.myworkdayjobs.com/en-US/ExternalCareers/job/Huntsville/Specialist--Quality-Engineering_REQ002765"
+    },
+    {
+      "company": "Boeing",
+      "title": "Electrical Test Engineer (Associate)",
+      "location": "USA - Huntsville, AL",
+      "salary": "$91,800 to $124,200",
+      "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Electrical-Test-Engineer--Associate-_JR2026515396"
+    },
+    {
+      "company": "L3Harris",
+      "title": "Specialist, Manufacturing Engineer (1st Shift) at L3Harris Technologies",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://careers.l3harris.com/en/job/huntsville/specialist-manufacturing-engineer-1st-shift/4832/99806110384"
+    },
+    {
+      "company": "Blue Origin",
+      "title": "Manufacturing Engineer II - Turbomachinery",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/en-US/BlueOrigin/job/Huntsville-AL/Manufacturing-Engineer-II---Turbomachinery_R71042"
+    },
+    {
+      "company": "Boeing",
+      "title": "Systems Engineer (Senior or Principal)",
+      "location": "USA - Huntsville, AL",
+      "salary": "$164,900 - $223,100",
+      "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Systems-Engineer--Senior-or-Principal-_JR2026498661-1"
+    },
+    {
+      "company": "Boeing",
+      "title": "Senior Seeker Radar Systems Engineer",
+      "location": "USA - Huntsville, AL",
+      "salary": "$136,850 - $185,150",
+      "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Senior-Seeker-Radar-Systems-Engineer_JR2026512682-1"
+    },
+    {
+      "company": "Northrop Grumman",
+      "title": "Principal Systems Engineer (AHT)",
+      "location": "United States-Alabama-Huntsville",
+      "salary": null,
+      "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/Principal-Systems-Engineer--AHT-_R10249980"
+    },
+    {
+      "company": "Northrop Grumman",
+      "title": "Principal Test Engineer/Senior Principal Test Engineer - AHT (GBAD)",
+      "location": "United States-Alabama-Huntsville",
+      "salary": null,
+      "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/Principal-Test-Engineer-Senior-Principal-Test-Engineer---AHT--CBAD-_R10241124-1"
+    },
+    {
+      "company": "Blue Origin",
+      "title": "Technician - Assembly and Integration II",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/en-US/BlueOrigin/job/Huntsville-AL/Technician---Assembly-and-Integration-II_R71009"
+    },
+    {
+      "company": "Leidos",
+      "title": "PCBA Soldering Technician-2nd shift",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/PCBA-Soldering-Technician-2nd-shift_R-00174494"
+    },
+    {
+      "company": "Boeing",
+      "title": "Associate Systems Engineer at Boeing",
+      "location": "Huntsville, Alabama (onsite)",
+      "salary": "$91,800 - $124,200",
+      "url": "https://jobs.boeing.com/en/job/huntsville/associate-systems-engineer/185/92218285520"
+    },
+    {
+      "company": "Boeing",
+      "title": "Associate Systems Engineer - Processor IPT",
+      "location": "USA - Huntsville, AL",
+      "salary": "$91,800 - $124,200",
+      "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Associate-Systems-Engineer---Processor-IPT_JR2026517292-1"
+    },
+    {
+      "company": "Northrop Grumman",
+      "title": "Associate Software Engineer / Software Engineer",
+      "location": "United States-Alabama-Huntsville",
+      "salary": null,
+      "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/Associate-Software-Engineer---Software-Engineer_R10249088"
+    },
+    {
+      "company": "Northrop Grumman",
+      "title": "Quality Inspector 3/4",
+      "location": "United States-Alabama-Madison",
+      "salary": null,
+      "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Alabama-Madison/Quality-Inspector-3-4_R10249893"
+    },
+    {
+      "company": "Leidos",
+      "title": "Additive Manufacturing Engineer",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/Additive-Manufacturing-Engineer_R-00191423"
+    },
+    {
+      "company": "Leidos",
+      "title": "Junior Software Engineer",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/external/job/Huntsville-AL/Junior-Software-Engineer_R-00191407"
+    },
+    {
+      "company": "L3Harris Technologies",
+      "title": "Sr. Specialist, Software Engineering at L3Harris Technologies",
+      "location": "Huntsville, Alabama - HQ",
+      "salary": null,
+      "url": "https://careers.l3harris.com/en/job/huntsville/sr-specialist-software-engineering/4832/99693729648"
+    },
+    {
+      "company": "L3Harris Technologies",
+      "title": "Specialist, Manufacturing Engineering at L3Harris Technologies",
+      "location": "Huntsville, AL - AMF South",
+      "salary": null,
+      "url": "https://careers.l3harris.com/en/job/huntsville/specialist-manufacturing-engineering/4832/99538369104"
+    },
+    {
+      "company": "Blue Origin",
+      "title": "Manufacturing Engineer II - Turbomachinery",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/en-US/BlueOrigin/job/Huntsville-AL/Manufacturing-Engineer-II---Turbomachinery_R71491-1"
+    },
+    {
+      "company": "Blue Origin",
+      "title": "Production Control Lv2 C shift Fri-Sun",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/en-US/BlueOrigin/job/Huntsville-AL/Production-Control-Lv2-C-shift-Fri-Sun_R70296"
+    },
+    {
+      "company": "Northrop Grumman",
+      "title": "Engineer Manufacturing",
+      "location": "United States-Alabama-Madison",
+      "salary": null,
+      "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Alabama-Madison/Engineer-Manufacturing_R10250512"
+    },
+    {
+      "company": "Leidos",
+      "title": "Master Production Scheduler",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/Master-Production-Scheduler_R-00186954"
+    },
+    {
       "company": "Blue Origin",
       "title": "Manufacturing Engineer II",
       "location": "Huntsville, AL",
       "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/en-US/BlueOrigin/job/Huntsville-AL/Manufacturing-Engineer-II_R71013"
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/en-US/BlueOrigin/job/Huntsville-AL/Manufacturing-Engineer-II_R71014"
     },
     {
       "company": "Boeing",
-      "title": "Associate Systems Engineer",
+      "title": "Lead or Senior Systems Integrator - PAC-3",
       "location": "USA - Huntsville, AL",
-      "salary": "$91,800 - $124,200",
-      "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Associate-Systems-Engineer_JR2026498638-1"
+      "salary": "$136,850 - $185,150",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Lead-or-Senior-Systems-Integrator---PAC-3_JR2026516894-1"
+    },
+    {
+      "company": "Boeing",
+      "title": "Electrical Engineer (Experienced or Senior)",
+      "location": "USA - Huntsville, AL",
+      "salary": null,
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Electrical-Engineer--Experienced-or-Senior-_JR2026515922-1"
+    },
+    {
+      "company": "Blue Origin",
+      "title": "Sr Manufacturing Engineer",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Sr-Manufacturing-Engineer_R70536"
+    },
+    {
+      "company": "Blue Origin",
+      "title": "CNC Machinist & Programmer III",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/CNC-Machinist---Programmer-III_R70665"
+    },
+    {
+      "company": "Northrop Grumman",
+      "title": "Systems Hardware Engineer 4 - Space AHT",
+      "location": "United States-Alabama-Huntsville",
+      "salary": null,
+      "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/Systems-Hardware-Engineer-4---Space-AHT_R10245259"
+    },
+    {
+      "company": "Northrop Grumman",
+      "title": "Systems Engineer 4 - RF Communications - Space AHT",
+      "location": "United States-Alabama-Huntsville",
+      "salary": null,
+      "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/Systems-Engineer-4---RF-Communications---Space-AHT_R10248533"
+    },
+    {
+      "company": "Leidos",
+      "title": "Principal RF Engineer",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Principal-RF-Engineer_R-00185016"
     }
   ]
 }
