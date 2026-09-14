@@ -285,5 +285,43 @@
   <a href="mailto:hsvspacejobs@outlook.com">hsvspacejobs@outlook.com</a>
 </footer>
 
+  
+<script>
+async function loadJobs() {
+  try {
+    const response = await fetch('/jobs.json');
+    const data = await response.json();
+
+    const jobsContainer = document.getElementById('jobs');
+
+    if (!jobsContainer || !data.jobs || data.jobs.length === 0) {
+      return;
+    }
+
+    jobsContainer.innerHTML = '';
+
+    data.jobs.forEach(job => {
+      const jobCard = document.createElement('div');
+      jobCard.className = 'job-card';
+
+      jobCard.innerHTML = `
+        <h3>${job.title}</h3>
+        <p><strong>${job.company}</strong></p>
+        <p>${job.location}</p>
+        ${job.salary ? `<p>${job.salary}</p>` : ''}
+        <a class="button" href="${job.url}" target="_blank" rel="noopener">
+          View Job
+        </a>
+      `;
+
+      jobsContainer.appendChild(jobCard);
+    });
+  } catch (error) {
+    console.error('Unable to load jobs:', error);
+  }
+}
+
+loadJobs();
+</script>
 </body>
 </html>
