@@ -16,6 +16,13 @@
     },
     {
       "company": "Blue Origin",
+      "title": "Technician - Manufacturing Sr.",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Technician---Manufacturing-Sr_R72209"
+    },
+    {
+      "company": "Blue Origin",
       "title": "Sr. Electromechanical Assembly & Test Technician",
       "location": "Huntsville, AL",
       "salary": null,
@@ -295,6 +302,13 @@
       "url": "https://blueorigin.wd5.myworkdayjobs.com/en-US/BlueOrigin/job/Huntsville-AL/Engines-Quality-Engineer-III--Weekend-Night-Shift-_R67643"
     },
     {
+      "company": "Northrop Grumman",
+      "title": "Systems Engineer - Level 2 or 3 (AHT)",
+      "location": "United States-Alabama-Huntsville",
+      "salary": "$87,600 - $131,400",
+      "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/Systems-Engineer---Level-2-or-3--AHT-_R10250093"
+    },
+    {
       "company": "Leidos",
       "title": "PCBA Soldering Technician",
       "location": "Huntsville, AL",
@@ -335,20 +349,6 @@
       "location": "USA - Huntsville, AL",
       "salary": "$112,200 - $151,800",
       "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Systems-Engineer--Experienced-or-Lead-_JR2026498658-2"
-    },
-    {
-      "company": "Northrop Grumman",
-      "title": "Systems Engineer - Level 2 or 3 (AHT)",
-      "location": "United States-Alabama-Huntsville",
-      "salary": "$87,600 - $131,400",
-      "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/Systems-Engineer---Level-2-or-3--AHT-_R10250093"
-    },
-    {
-      "company": "Blue Origin",
-      "title": "Technician - Manufacturing Sr.",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Technician---Manufacturing-Sr_R72209"
     }
   ]
 }
