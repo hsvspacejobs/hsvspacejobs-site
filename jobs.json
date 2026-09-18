@@ -191,13 +191,6 @@
     },
     {
       "company": "Boeing",
-      "title": "Associate Systems Engineer - Processor IPT",
-      "location": "USA - Huntsville, AL",
-      "salary": "$91,800 - $124,200",
-      "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Associate-Systems-Engineer---Processor-IPT_JR2026517292-1"
-    },
-    {
-      "company": "Boeing",
       "title": "Systems Engineer (Senior or Principal)",
       "location": "USA - Huntsville, AL",
       "salary": "$164,900 - $223,100",
@@ -282,13 +275,6 @@
     },
     {
       "company": "Boeing",
-      "title": "IFPC Integrated Product Team (IPT) Manager at Boeing",
-      "location": "Huntsville, Alabama (onsite)",
-      "salary": null,
-      "url": "https://jobs.boeing.com/job/huntsville/ifpc-integrated-product-team-ipt-manager/185/100451474032"
-    },
-    {
-      "company": "Boeing",
       "title": "Experienced Radar Seeker System Engineer",
       "location": "USA - Huntsville, AL",
       "salary": "$112,200 - $151,800",
@@ -349,6 +335,20 @@
       "location": "USA - Huntsville, AL",
       "salary": "$91,800 - $124,200",
       "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Associate-Systems-Engineer_JR2026498638-1"
+    },
+    {
+      "company": "Blue Origin",
+      "title": "Industrial Controls Technician Sr.",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Industrial-Controls-Technician-Sr---Second-Shift-_R66992-1"
+    },
+    {
+      "company": "Blue Origin",
+      "title": "Material Movement Associate",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Material-Movement-Associate_R72432-1"
     }
   ]
 }
