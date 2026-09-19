@@ -2,6 +2,13 @@
   "jobs": [
     {
       "company": "Blue Origin",
+      "title": "Manufacturing Systems Engineer II - Factory Layout & Optimization",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Manufacturing-Systems-Engineer-II---Factory-Layout---Optimization_R69430"
+    },
+    {
+      "company": "Blue Origin",
       "title": "Industrial Controls Technician Sr.",
       "location": "Huntsville, AL",
       "salary": null,
@@ -20,6 +27,13 @@
       "location": "Huntsville, AL",
       "salary": null,
       "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Technician---Manufacturing-Sr_R72209"
+    },
+    {
+      "company": "Blue Origin",
+      "title": "Manufacturing Engineer III",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Manufacturing-Engineer-III_R70546"
     },
     {
       "company": "Blue Origin",
@@ -44,13 +58,6 @@
     },
     {
       "company": "Blue Origin",
-      "title": "Manufacturing Systems Engineer II - Factory Layout & Optimization",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Manufacturing-Systems-Engineer-II---Factory-Layout---Optimization_R69430"
-    },
-    {
-      "company": "Blue Origin",
       "title": "Associate - Technician",
       "location": "Huntsville, AL",
       "salary": null,
@@ -69,13 +76,6 @@
       "location": "Huntsville, AL",
       "salary": null,
       "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Pipe-Welder-II---C-Shift_R70663"
-    },
-    {
-      "company": "Blue Origin",
-      "title": "Manufacturing Engineer III",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Manufacturing-Engineer-III_R70546"
     },
     {
       "company": "Northrop Grumman",
