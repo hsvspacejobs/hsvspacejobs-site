@@ -2,6 +2,13 @@
   "jobs": [
     {
       "company": "Blue Origin",
+      "title": "Planner/Scheduler III",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Planner-Scheduler-III_R72211"
+    },
+    {
+      "company": "Blue Origin",
       "title": "Quality Engineer Level II",
       "location": "Huntsville, AL",
       "salary": null,
@@ -342,13 +349,6 @@
       "location": "Huntsville, Alabama",
       "salary": null,
       "url": "https://careers.l3harris.com/en/job/huntsville/specialist-systems-engineer-control-analyst-gnc/4832/98852971232"
-    },
-    {
-      "company": "Blue Origin",
-      "title": "Engines Quality Engineer III - B-Shift",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/en-US/BlueOrigin/job/Huntsville-AL/Engines-Quality-Engineer-III--Weekend-Night-Shift-_R67643"
     }
   ]
 }
