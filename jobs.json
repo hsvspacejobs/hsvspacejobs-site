@@ -2,13 +2,6 @@
   "jobs": [
     {
       "company": "Blue Origin",
-      "title": "Specialist Production Control II",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Specialist-Production-Control-II_R71455"
-    },
-    {
-      "company": "Blue Origin",
       "title": "Electrical Design and Test Engineer III \u2013 Blue Ring",
       "location": "Huntsville, AL",
       "salary": null,
@@ -27,13 +20,6 @@
       "location": "Huntsville, AL",
       "salary": null,
       "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Manufacturing-Engineer---Blue-Ring-Structures---Mechanisms_R70882"
-    },
-    {
-      "company": "Blue Origin",
-      "title": "CMM Technician III",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/CMM-Technician-III_R72201"
     },
     {
       "company": "Blue Origin",
@@ -58,10 +44,10 @@
     },
     {
       "company": "Blue Origin",
-      "title": "Sr. Equipment Reliability Technician",
+      "title": "Specialist Production Control II",
       "location": "Huntsville, AL",
       "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Sr-Equipment-Reliability-Technician----Second-Shift-_R66993"
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Specialist-Production-Control-II_R71455"
     },
     {
       "company": "Blue Origin",
@@ -86,10 +72,10 @@
     },
     {
       "company": "Blue Origin",
-      "title": "CNC Machinist (Multiple Shifts)",
+      "title": "CMM Technician III",
       "location": "Huntsville, AL",
       "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/CNC-Machinist--D-Shift-_R70307"
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/CMM-Technician-III_R72201"
     },
     {
       "company": "Blue Origin",
@@ -114,10 +100,10 @@
     },
     {
       "company": "Blue Origin",
-      "title": "Material Movement Associate",
+      "title": "Sr. Equipment Reliability Technician",
       "location": "Huntsville, AL",
       "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Material-Movement-Associate_R72432-1"
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Sr-Equipment-Reliability-Technician----Second-Shift-_R66993"
     },
     {
       "company": "Blue Origin",
@@ -142,6 +128,13 @@
     },
     {
       "company": "Blue Origin",
+      "title": "CNC Machinist (Multiple Shifts)",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/CNC-Machinist--D-Shift-_R70307"
+    },
+    {
+      "company": "Blue Origin",
       "title": "Technician II - Additive Manufacturing - C Shift",
       "location": "Huntsville, AL",
       "salary": null,
@@ -160,6 +153,13 @@
       "location": "Huntsville, AL",
       "salary": null,
       "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Industrial-Controls-Technician-Sr---Second-Shift-_R66992-1"
+    },
+    {
+      "company": "Blue Origin",
+      "title": "Material Movement Associate",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Material-Movement-Associate_R72432-1"
     },
     {
       "company": "Blue Origin",
@@ -309,13 +309,6 @@
       "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Systems-Engineer--Senior-or-Principal-_JR2026498661-1"
     },
     {
-      "company": "Boeing",
-      "title": "Senior Seeker Radar Systems Engineer",
-      "location": "USA - Huntsville, AL",
-      "salary": "$136,850 - $185,150",
-      "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Senior-Seeker-Radar-Systems-Engineer_JR2026512682-1"
-    },
-    {
       "company": "Northrop Grumman",
       "title": "Principal Systems Engineer (AHT)",
       "location": "United States-Alabama-Huntsville",
@@ -349,6 +342,13 @@
       "location": "Huntsville, AL",
       "salary": null,
       "url": "https://careers.l3harris.com/en/job/huntsville/specialist-manufacturing-engineer-1st-shift/4832/99806110384"
+    },
+    {
+      "company": "Blue Origin",
+      "title": "Manufacturing Engineer II - Turbomachinery",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/en-US/BlueOrigin/job/Huntsville-AL/Manufacturing-Engineer-II---Turbomachinery_R71042"
     }
   ]
 }
