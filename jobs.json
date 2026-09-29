@@ -2,13 +2,6 @@
   "jobs": [
     {
       "company": "Blue Origin",
-      "title": "Dimensional Inspector II - Second Shift",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Dimensional-Inspector-II---Second-Shift_R72512"
-    },
-    {
-      "company": "Blue Origin",
       "title": "Technician - Assembly & Integration",
       "location": "Huntsville, AL",
       "salary": null,
@@ -20,6 +13,13 @@
       "location": "Huntsville, AL",
       "salary": null,
       "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Technician---Materials---Process_R68903"
+    },
+    {
+      "company": "Blue Origin",
+      "title": "Dimensional Inspector II - Second Shift",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Dimensional-Inspector-II---Second-Shift_R72512"
     },
     {
       "company": "Blue Origin",
@@ -330,6 +330,13 @@
       "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/CNC-Machinist---Programmer-III_R70665"
     },
     {
+      "company": "Leidos",
+      "title": "Additive Manufacturing Engineer",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/Additive-Manufacturing-Engineer_R-00191423"
+    },
+    {
       "company": "L3Harris Technologies",
       "title": "Sr. Specialist, Software Engineering at L3Harris Technologies",
       "location": "Huntsville, Alabama - HQ",
@@ -342,13 +349,6 @@
       "location": "Huntsville, AL",
       "salary": null,
       "url": "https://blueorigin.wd5.myworkdayjobs.com/en-US/BlueOrigin/job/Huntsville-AL/Manufacturing-Engineer-II---Turbomachinery_R71491-1"
-    },
-    {
-      "company": "Blue Origin",
-      "title": "Production Control Lv2 C shift Fri-Sun",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/en-US/BlueOrigin/job/Huntsville-AL/Production-Control-Lv2-C-shift-Fri-Sun_R70296"
     }
   ]
 }
