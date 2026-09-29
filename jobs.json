@@ -2,6 +2,13 @@
   "jobs": [
     {
       "company": "Blue Origin",
+      "title": "Inspector III - B Shift",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Inspector-III_R66194"
+    },
+    {
+      "company": "Blue Origin",
       "title": "Dimensional Inspector II - Second Shift",
       "location": "Huntsville, AL",
       "salary": null,
@@ -13,6 +20,13 @@
       "location": "Huntsville, AL",
       "salary": null,
       "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/NDT-Technician-III---Penetrant--PT-_R72852"
+    },
+    {
+      "company": "Blue Origin",
+      "title": "Sr Manager - Supply Chain & Logistics",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Sr-Manager---Supply-Chain---Logistics_R73119"
     },
     {
       "company": "Blue Origin",
@@ -335,20 +349,6 @@
       "location": "Huntsville, AL",
       "salary": null,
       "url": "https://blueorigin.wd5.myworkdayjobs.com/en-US/BlueOrigin/job/Huntsville-AL/Manufacturing-Engineer-II---Turbomachinery_R71491-1"
-    },
-    {
-      "company": "Blue Origin",
-      "title": "Production Control Lv2 C shift Fri-Sun",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/en-US/BlueOrigin/job/Huntsville-AL/Production-Control-Lv2-C-shift-Fri-Sun_R70296"
-    },
-    {
-      "company": "Leidos",
-      "title": "Master Production Scheduler",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/Master-Production-Scheduler_R-00186954"
     }
   ]
 }
