@@ -23,6 +23,13 @@
     },
     {
       "company": "Blue Origin",
+      "title": "Manager- Quality",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Manager--Quality_R72871"
+    },
+    {
+      "company": "Blue Origin",
       "title": "Technician - Assembly & Integration (All Levels)",
       "location": "Huntsville, AL",
       "salary": null,
@@ -342,13 +349,6 @@
       "location": "Huntsville, AL",
       "salary": null,
       "url": "https://blueorigin.wd5.myworkdayjobs.com/en-US/BlueOrigin/job/Huntsville-AL/Production-Control-Lv2-C-shift-Fri-Sun_R70296"
-    },
-    {
-      "company": "Leidos",
-      "title": "Master Production Scheduler",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/Master-Production-Scheduler_R-00186954"
     }
   ]
 }
