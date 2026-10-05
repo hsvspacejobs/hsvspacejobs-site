@@ -1,6 +1,13 @@
 {
   "jobs": [
     {
+      "company": "Blue Origin",
+      "title": "Senior Manufacturing Engineer",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Senior-Manufacturing-Engineer_R65902-1"
+    },
+    {
       "company": "Boeing",
       "title": "Analog Design Engineer (Experienced or Senior)",
       "location": "USA - Huntsville, AL",
@@ -342,13 +349,6 @@
       "location": "Huntsville, AL",
       "salary": null,
       "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Planner-Scheduler-III_R72211"
-    },
-    {
-      "company": "Blue Origin",
-      "title": "CMM Technician II",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/CMM-Technician-II_R72202"
     }
   ]
 }
