@@ -1,11 +1,11 @@
 {
   "jobs": [
     {
-      "company": "Blue Origin",
-      "title": "Senior Manufacturing Engineer",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Senior-Manufacturing-Engineer_R65902-1"
+      "company": "Boeing",
+      "title": "FPGA Design Engineer (Associate, Experienced, or Senior)",
+      "location": "USA - Huntsville, AL",
+      "salary": "$91,800 to $124,200",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Huntsville-AL/FPGA-Design-Engineer_JR2026503754-1"
     },
     {
       "company": "Boeing",
@@ -13,6 +13,13 @@
       "location": "USA - Huntsville, AL",
       "salary": "$112,200 to $151,800",
       "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Analog-Design-Engineer_JR2026506540-1"
+    },
+    {
+      "company": "Blue Origin",
+      "title": "Senior Manufacturing Engineer",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Senior-Manufacturing-Engineer_R65902-1"
     },
     {
       "company": "Blue Origin",
@@ -342,13 +349,6 @@
       "location": "Huntsville, AL",
       "salary": null,
       "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Electrical-Design-and-Test-Engineer-III---Blue-Ring_R72299"
-    },
-    {
-      "company": "Blue Origin",
-      "title": "Planner/Scheduler III",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Planner-Scheduler-III_R72211"
     }
   ]
 }
