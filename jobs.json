@@ -1,6 +1,13 @@
 {
   "jobs": [
     {
+      "company": "Blue Origin",
+      "title": "Dimensional Inspector ll - D Shift (Weekend Night Shift)",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Dimensional-Inspector-ll---D-Shift--Weekend-Night-Shift-_R72550-1"
+    },
+    {
       "company": "Boeing",
       "title": "Experienced or Senior Digital Design Engineer",
       "location": "USA - Huntsville, AL",
@@ -342,13 +349,6 @@
       "location": "Huntsville, AL",
       "salary": null,
       "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/BE3U-Production-Control-Specialist-II-Sr--Shifts-A--B--and-C-_R71875"
-    },
-    {
-      "company": "Blue Origin",
-      "title": "Specialist Production Control II",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Specialist-Production-Control-II_R71455"
     }
   ]
 }
