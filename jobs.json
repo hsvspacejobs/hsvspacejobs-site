@@ -116,7 +116,7 @@
       "company": "Boeing",
       "title": "Experienced or Lead Electrical Engineer",
       "location": "USA - Huntsville, AL",
-      "salary": "$112,200 to $151,800",
+      "salary": "$112,200 to $185,150",
       "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Electrical-Engineer--Experienced--Lead-_JR2026517049-1"
     },
     {
@@ -130,7 +130,7 @@
       "company": "Boeing",
       "title": "Radar Systems Senior Engineer - Patriot Advanced Capability-3 (PAC-3)",
       "location": "USA - Huntsville, AL",
-      "salary": "$136,850 - $185,150",
+      "salary": null,
       "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Radar-Systems-Senior-Engineer---Patriot-Advanced-Capability-3--PAC-3-_JR2026509257-1"
     },
     {
@@ -205,13 +205,6 @@
     },
     {
       "company": "Blue Origin",
-      "title": "Sr. Industrial Engineer-Blue Ring",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Sr-Industrial-Engineer-Blue-Ring_R70407"
-    },
-    {
-      "company": "Blue Origin",
       "title": "Manufacturing Engineer \u2013 Blue Ring Cable Harness Shop III",
       "location": "Huntsville, AL",
       "salary": null,
@@ -219,10 +212,10 @@
     },
     {
       "company": "Blue Origin",
-      "title": "Manufacturing Engineer II - Turbomachinery",
+      "title": "Sr. Industrial Engineer-Blue Ring",
       "location": "Huntsville, AL",
       "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Manufacturing-Engineer-II---Turbomachinery_R72853-1"
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Sr-Industrial-Engineer-Blue-Ring_R70407"
     },
     {
       "company": "Blue Origin",
@@ -240,10 +233,17 @@
     },
     {
       "company": "Blue Origin",
-      "title": "Production Quality Engineer (Machine Shop)",
+      "title": "Manufacturing Engineer II - Turbomachinery",
       "location": "Huntsville, AL",
       "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Production-Quality-Engineer_R72748"
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Manufacturing-Engineer-II---Turbomachinery_R72853-1"
+    },
+    {
+      "company": "Blue Origin",
+      "title": "Receiving Inspector III",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Receiving-Inspector-III_R66680"
     },
     {
       "company": "Blue Origin",
@@ -254,10 +254,17 @@
     },
     {
       "company": "Blue Origin",
-      "title": "Receiving Inspector III",
+      "title": "Production Quality Engineer (Machine Shop)",
       "location": "Huntsville, AL",
       "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Receiving-Inspector-III_R66680"
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Production-Quality-Engineer_R72748"
+    },
+    {
+      "company": "Blue Origin",
+      "title": "Manager- Quality",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Manager--Quality_R72871"
     },
     {
       "company": "Blue Origin",
@@ -275,17 +282,10 @@
     },
     {
       "company": "Blue Origin",
-      "title": "Manager- Quality",
+      "title": "Dimensional Inspector II - Second Shift",
       "location": "Huntsville, AL",
       "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Manager--Quality_R72871"
-    },
-    {
-      "company": "Blue Origin",
-      "title": "Inspector III - B Shift",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Inspector-III_R66194"
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Dimensional-Inspector-II---Second-Shift_R72512"
     },
     {
       "company": "Blue Origin",
@@ -296,17 +296,10 @@
     },
     {
       "company": "Blue Origin",
-      "title": "Technician - Materials & Process",
+      "title": "Inspector III - B Shift",
       "location": "Huntsville, AL",
       "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Technician---Materials---Process_R68903"
-    },
-    {
-      "company": "Blue Origin",
-      "title": "Dimensional Inspector II - Second Shift",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Dimensional-Inspector-II---Second-Shift_R72512"
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Inspector-III_R66194"
     },
     {
       "company": "Blue Origin",
@@ -317,10 +310,24 @@
     },
     {
       "company": "Blue Origin",
+      "title": "Technician - Materials & Process",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Technician---Materials---Process_R68903"
+    },
+    {
+      "company": "Blue Origin",
       "title": "Technician - Assembly & Integration (All Levels)",
       "location": "Huntsville, AL",
       "salary": null,
       "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Technician---Assembly---Integration-III_R65942-1"
+    },
+    {
+      "company": "Blue Origin",
+      "title": "Technician - Materials & Process III",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Technician---Materials---Process-III_R67114"
     },
     {
       "company": "Blue Origin",
@@ -331,17 +338,10 @@
     },
     {
       "company": "Blue Origin",
-      "title": "BE3U Production Control Specialist II-Sr. (Shifts A, B, and C)",
+      "title": "Test Engineer IV (Senior) | Test Operations Maintenance",
       "location": "Huntsville, AL",
       "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/BE3U-Production-Control-Specialist-II-Sr--Shifts-A--B--and-C-_R71875"
-    },
-    {
-      "company": "Blue Origin",
-      "title": "Technician - Materials & Process III",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Technician---Materials---Process-III_R67114"
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Senior-Test-Engineer---Test-Operations-Maintenance_R73086"
     },
     {
       "company": "Blue Origin",
