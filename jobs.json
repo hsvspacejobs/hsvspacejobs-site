@@ -23,13 +23,6 @@
     },
     {
       "company": "Northrop Grumman",
-      "title": "Software Engineer - Level 3 or 4 - Space AHT",
-      "location": "United States-Alabama-Huntsville",
-      "salary": "$108,800 - $163,200",
-      "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/Software-Engineer---Level-4---Space-AHT_R10254240"
-    },
-    {
-      "company": "Northrop Grumman",
       "title": "Sr Principal Engineer Aeronautical",
       "location": "United States-Alabama-Huntsville",
       "salary": "$135,800 - $203,600",
@@ -37,17 +30,10 @@
     },
     {
       "company": "Northrop Grumman",
-      "title": "Principal / Sr. Principal Systems Engineer",
+      "title": "Software Engineer - Level 3 or 4 - Space AHT",
       "location": "United States-Alabama-Huntsville",
-      "salary": "$98,400 - $203,600",
-      "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/Principal---Sr-Principal-Systems-Engineer_R10255046"
-    },
-    {
-      "company": "Northrop Grumman",
-      "title": "Sr. Principal Software Engineer",
-      "location": "United States-Alabama-Huntsville",
-      "salary": "$135,800 - $203,600",
-      "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/Sr-Principal-Software-Engineer_R10255070"
+      "salary": "$108,800 - $163,200",
+      "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/Software-Engineer---Level-4---Space-AHT_R10254240"
     },
     {
       "company": "Northrop Grumman",
@@ -58,10 +44,24 @@
     },
     {
       "company": "Northrop Grumman",
+      "title": "Principal / Sr. Principal Systems Engineer",
+      "location": "United States-Alabama-Huntsville",
+      "salary": "$98,400 - $203,600",
+      "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/Principal---Sr-Principal-Systems-Engineer_R10255046"
+    },
+    {
+      "company": "Northrop Grumman",
       "title": "Engineer Systems IBCS Poland (NAREW)",
       "location": "United States-Alabama-Huntsville",
       "salary": "$87,600 - $131,400",
       "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/Engineer-Systems-IBCS-Poland--NAREW-_R10254984"
+    },
+    {
+      "company": "Northrop Grumman",
+      "title": "Sr. Principal Software Engineer",
+      "location": "United States-Alabama-Huntsville",
+      "salary": "$135,800 - $203,600",
+      "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/Sr-Principal-Software-Engineer_R10255070"
     },
     {
       "company": "Northrop Grumman",
@@ -99,11 +99,11 @@
       "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/Engineer---Principal-Mechanical-Engineer--Secret-Clearance--20426_R10255159"
     },
     {
-      "company": "Boeing",
-      "title": "Chief Engineer - Patriot Advanced Capability (PAC-3)",
-      "location": "USA - Huntsville, AL",
-      "salary": "$164,900 - $266,800",
-      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Chief-Engineer---Patriot-Advanced-Capability--PAC-3-_JR2026525446-1"
+      "company": "Blue Origin",
+      "title": "Test Engineer II- Blue Ring (2nd Shift)",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Test-Engineer-II--Blue-Ring--2nd-Shift-_R70021"
     },
     {
       "company": "Blue Origin",
@@ -118,13 +118,6 @@
       "location": "Huntsville, AL",
       "salary": null,
       "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Test-Engineer-II--Blue-Ring_R70018"
-    },
-    {
-      "company": "Blue Origin",
-      "title": "Test Engineer II- Blue Ring (2nd Shift)",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Test-Engineer-II--Blue-Ring--2nd-Shift-_R70021"
     },
     {
       "company": "Boeing",
@@ -142,6 +135,13 @@
     },
     {
       "company": "Blue Origin",
+      "title": "Avionics Wire Harnessing Technician | All Shifts All Levels",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Avionics-Harnessing-Technician---All-Shifts-All-Levels_R72425"
+    },
+    {
+      "company": "Blue Origin",
       "title": "Manufacturing Engineer II - Machined Components",
       "location": "Huntsville, AL",
       "salary": null,
@@ -156,13 +156,6 @@
     },
     {
       "company": "Blue Origin",
-      "title": "Avionics Wire Harnessing Technician | All Shifts All Levels",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Avionics-Harnessing-Technician---All-Shifts-All-Levels_R72425"
-    },
-    {
-      "company": "Blue Origin",
       "title": "Manufacturing Engineer III - Combustions",
       "location": "Huntsville, AL",
       "salary": null,
@@ -174,6 +167,13 @@
       "location": "Huntsville, AL",
       "salary": null,
       "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Thrusters-Value-Stream-Leader_R68925-1"
+    },
+    {
+      "company": "Boeing",
+      "title": "Experienced Embedded Software Engineer",
+      "location": "USA - Huntsville, AL",
+      "salary": "$126,650 - $171,350",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Experienced-Embedded-Software-Engineer_JR2026523297-1"
     },
     {
       "company": "Blue Origin",
@@ -191,13 +191,6 @@
     },
     {
       "company": "Boeing",
-      "title": "Experienced Embedded Software Engineer",
-      "location": "USA - Huntsville, AL",
-      "salary": "$126,650 - $171,350",
-      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Experienced-Embedded-Software-Engineer_JR2026523297-1"
-    },
-    {
-      "company": "Boeing",
       "title": "Experienced or Senior Digital Design Engineer",
       "location": "USA - Huntsville, AL",
       "salary": "$112,200 - $185,150",
@@ -209,6 +202,13 @@
       "location": "USA - Huntsville, AL",
       "salary": "$91,800 - $185,150",
       "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Huntsville-AL/FPGA-Design-Engineer_JR2026503754-1"
+    },
+    {
+      "company": "Boeing",
+      "title": "Analog Design Engineer (Experienced or Senior)",
+      "location": "USA - Huntsville, AL",
+      "salary": "$112,200 - $185,150",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Analog-Design-Engineer_JR2026506540-1"
     },
     {
       "company": "Blue Origin",
@@ -225,13 +225,6 @@
       "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Engines-Manufacturing-Engineer---BE-3U-Combustion-Devices-B-Shift_R71029"
     },
     {
-      "company": "Boeing",
-      "title": "Analog Design Engineer (Experienced or Senior)",
-      "location": "USA - Huntsville, AL",
-      "salary": "$112,200 - $185,150",
-      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Analog-Design-Engineer_JR2026506540-1"
-    },
-    {
       "company": "Blue Origin",
       "title": "Manufacturing Engineer III - Combustion Devices",
       "location": "Huntsville, AL",
@@ -244,6 +237,13 @@
       "location": "Huntsville, AL",
       "salary": null,
       "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Turbo-Machinery-Manufacturing-Engineer_R64985-1"
+    },
+    {
+      "company": "Boeing",
+      "title": "Test Technician",
+      "location": "USA - Huntsville, AL",
+      "salary": "$24.00 - $34.00/hour",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Test-Technician_JR2026521156-1"
     },
     {
       "company": "Blue Origin",
@@ -261,13 +261,6 @@
     },
     {
       "company": "Boeing",
-      "title": "Test Technician",
-      "location": "USA - Huntsville, AL",
-      "salary": "$24.00 - $34.00/hour",
-      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Test-Technician_JR2026521156-1"
-    },
-    {
-      "company": "Boeing",
       "title": "Lead, Senior or Expert Test & Evaluation Engineer - PAC-3",
       "location": "USA - Huntsville, AL",
       "salary": "$126,650 - $255,300",
@@ -279,6 +272,13 @@
       "location": "USA - Huntsville, AL",
       "salary": "$136,850 - $185,150",
       "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Senior-Systems-Engineer---Seeker-Testing---Patriot-Advanced-Capability-3--PAC3-_JR2026494972-1"
+    },
+    {
+      "company": "Blue Origin",
+      "title": "CNC Machinist - New Glenn Engines",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/CNC-Machinist---New-Glenn-Engines_R73391"
     },
     {
       "company": "Boeing",
@@ -296,13 +296,6 @@
     },
     {
       "company": "Blue Origin",
-      "title": "CNC Machinist - New Glenn Engines",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/CNC-Machinist---New-Glenn-Engines_R73391"
-    },
-    {
-      "company": "Blue Origin",
       "title": "Blue Ring Automation Test Engineer",
       "location": "Huntsville, AL",
       "salary": null,
@@ -314,6 +307,13 @@
       "location": "Huntsville, AL",
       "salary": null,
       "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Technician---Tube-Shop_R64935"
+    },
+    {
+      "company": "Blue Origin",
+      "title": "Dimensional Inspector ll - C Shift (Weekend Day Shift)",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Dimensional-Inspector-ll_R72548"
     },
     {
       "company": "Blue Origin",
@@ -331,13 +331,6 @@
     },
     {
       "company": "Blue Origin",
-      "title": "Dimensional Inspector ll - C Shift (Weekend Day Shift)",
-      "location": "Huntsville, AL",
-      "salary": null,
-      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Dimensional-Inspector-ll_R72548"
-    },
-    {
-      "company": "Blue Origin",
       "title": "Sr. Industrial Engineer-Blue Ring",
       "location": "Huntsville, AL",
       "salary": null,
@@ -349,6 +342,13 @@
       "location": "Huntsville, AL",
       "salary": null,
       "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Manufacturing-Engineer---Blue-Ring-Cable-Harness-Shop_R70886"
+    },
+    {
+      "company": "Blue Origin",
+      "title": "Sr Technician - Materials & Process",
+      "location": "Huntsville, AL",
+      "salary": null,
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Huntsville-AL/Sr-Technician---Materials---Process_R72990"
     }
   ]
 }
