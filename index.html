@@ -170,6 +170,28 @@
     footer a {
       color: #ff9b52;
     }
+
+    .search-panel{max-width:1100px;margin:0 auto 22px;background:#101d30;border:1px solid #263a57;border-radius:12px;padding:20px}
+    .search-panel label{display:block;font-size:13px;font-weight:700;color:#aebed0;margin-bottom:4px}
+    .search-main input{width:100%;font-size:18px;padding:14px 16px;border-radius:8px;border:1px solid #50627c;background:#07111f;color:#fff}
+    .filters{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;margin-top:16px;align-items:end}
+    .filters select{width:100%;padding:10px;border-radius:8px;border:1px solid #50627c;background:#07111f;color:#fff;font-size:15px}
+    .toggle{display:flex;align-items:center;gap:8px;font-weight:700;color:#dce6f3;padding:10px 0}
+    .toggle input{width:20px;height:20px;accent-color:#ff7a18}
+    input:focus-visible,select:focus-visible,button:focus-visible,a:focus-visible{outline:3px solid #ff7a18;outline-offset:2px}
+    .results-bar{max-width:1100px;margin:0 auto 16px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;color:#b9c7d8}
+    .linkbtn{background:transparent;border:1px solid #50627c;color:#fff;border-radius:8px;padding:8px 14px;font-weight:700;cursor:pointer;font-size:14px}
+    .job-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;max-width:1100px;margin:auto}
+    .job-card{background:#101d30;border:1px solid #263a57;border-radius:12px;padding:20px;display:flex;flex-direction:column}
+    .job-card h3{margin:0 0 6px;font-size:19px;line-height:1.3}
+    .job-meta{color:#b9c7d8;font-size:15px;margin:2px 0}
+    .job-company{color:#fff;font-weight:700}
+    .tag{display:inline-block;font-size:12px;font-weight:700;color:#ff9b52;border:1px solid #6b4422;border-radius:999px;padding:1px 9px;margin:8px 0 4px;align-self:flex-start}
+    .pay{color:#7ee0a1;font-weight:700}
+    .job-card .button{margin:14px 0 0;align-self:flex-start;padding:10px 18px}
+    .empty{max-width:700px;margin:auto;text-align:center;background:#101d30;border:1px solid #263a57;border-radius:12px;padding:30px;color:#b9c7d8}
+    .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+    @media (max-width:600px){section{padding:50px 5%}.hero{padding:60px 5%}.job-grid{grid-template-columns:1fr}nav a{margin-left:0;margin-right:16px}}
   </style>
 </head>
 
@@ -198,24 +220,30 @@
 </section>
 
 <section id="jobs">
-  <h2 class="section-title">Latest Verified Jobs</h2>
+  <h2 class="section-title">Search Verified Jobs</h2>
 
   <p class="section-subtitle">
     Jobs are checked against official employer career sites before they are published.
   </p>
 
-  <div id="job-list" class="jobs-placeholder">
-    <h3>Job listings are coming online.</h3>
-
-    <p>
-      Our automated job scout is actively monitoring Huntsville-area aerospace
-      and defense employers. Verified listings will appear here soon.
-    </p>
-
-    <a class="button" href="https://x.com/HSVSpaceJobs">
-      Follow @HSVSpaceJobs
-    </a>
+  <form class="search-panel" role="search" onsubmit="return false" aria-label="Search jobs">
+    <div class="search-main">
+      <label for="q">Search jobs</label>
+      <input id="q" type="search" placeholder="Title, company, keyword, or req ID" autocomplete="off">
+    </div>
+    <div class="filters">
+      <div><label for="f-company">Company</label><select id="f-company"><option value="">All companies</option></select></div>
+      <div><label for="f-city">City</label><select id="f-city"><option value="">All cities</option></select></div>
+      <div><label for="f-cat">Category</label><select id="f-cat"><option value="">All categories</option></select></div>
+      <div><label for="f-sort">Sort by</label><select id="f-sort"><option value="newest">Newest</option><option value="company">Company A–Z</option><option value="salary">Salary high → low</option></select></div>
+      <div><label class="toggle"><input id="f-pay" type="checkbox"> Salary listed only</label></div>
+    </div>
+  </form>
+  <div class="results-bar">
+    <span id="count" role="status" aria-live="polite">Loading jobs…</span>
+    <button type="button" id="clear" class="linkbtn">Clear filters</button>
   </div>
+  <div id="job-list" class="job-grid"></div>
 </section>
 
 <section id="employers" class="employer-section">
@@ -287,41 +315,49 @@
 
   
 <script>
-async function loadJobs() {
-  try {
-    const response = await fetch('/jobs.json');
-    const data = await response.json();
-
-    const jobsContainer = document.getElementById('jobs');
-
-    if (!jobsContainer || !data.jobs || data.jobs.length === 0) {
-      return;
-    }
-
-    jobsContainer.innerHTML = '';
-
-    data.jobs.forEach(job => {
-      const jobCard = document.createElement('div');
-      jobCard.className = 'job-card';
-
-      jobCard.innerHTML = `
-        <h3>${job.title}</h3>
-        <p><strong>${job.company}</strong></p>
-        <p>${job.location}</p>
-        ${job.salary ? `<p>${job.salary}</p>` : ''}
-        <a class="button" href="${job.url}" target="_blank" rel="noopener">
-          View Job
-        </a>
-      `;
-
-      jobsContainer.appendChild(jobCard);
-    });
-  } catch (error) {
-    console.error('Unable to load jobs:', error);
-  }
-}
-
-loadJobs();
+(function(){
+const CITIES=['Huntsville','Madison','Decatur','Athens'];
+const CATS=[['Software','software|developer|devops|programmer|full stack|cyber|it |data scien|cloud'],
+['Quality','quality|inspector|inspection|qa\b|reliability'],
+['Technician / Production','technician|tech\b|assembl|machinist|operator|production|welder|mechanic|fabricat|electrician|builder'],
+['Management','manager|director|lead\b|supervisor|program management|chief|head of'],
+['Engineering','engineer|engineering|scientist|analyst|architect'],
+['Business / Admin','finance|account|contract|procure|buyer|supply|hr |human resources|recruit|administrat|business|sales|security officer']];
+const $=id=>document.getElementById(id);
+const el={q:$('q'),company:$('f-company'),city:$('f-city'),cat:$('f-cat'),sort:$('f-sort'),pay:$('f-pay'),count:$('count'),list:$('job-list'),clear:$('clear')};
+let jobs=[];
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function city(loc){const l=(loc||'').toLowerCase();return CITIES.find(c=>l.includes(c.toLowerCase()))||'';}
+function cat(title){const t=' '+(title||'').toLowerCase()+' ';for(const [n,re] of CATS){if(new RegExp(re).test(t))return n;}return 'Other';}
+function reqId(url){const m=(url||'').match(/_([A-Za-z]*\d[\w-]*)\/?(?:\?|$)/)||(url||'').match(/(?:jobs?|req|id)[\/=]([A-Za-z]*\d{4,}[\w-]*)/i);return m?m[1]:'';}
+function payMax(s){if(!s)return null;const n=(s.match(/\d[\d,]*(?:\.\d+)?/g)||[]).map(x=>parseFloat(x.replace(/,/g,'')));if(!n.length)return null;let v=Math.max(...n);if(/k\b/i.test(s)&&v<1000)v*=1000;if(/hour|hr\b/i.test(s)||v<500)v*=2080;return v;}
+function fill(sel,vals){vals.forEach(([v,c])=>{const o=document.createElement('option');o.value=v;o.textContent=v+' ('+c+')';sel.appendChild(o);});}
+function counts(key){const m={};jobs.forEach(j=>{if(j[key])m[j[key]]=(m[j[key]]||0)+1});return Object.entries(m).sort((a,b)=>a[0].localeCompare(b[0]));}
+function readURL(){const p=new URLSearchParams(location.search);el.q.value=p.get('q')||'';
+ for(const [k,s] of [['company',el.company],['city',el.city],['category',el.cat],['sort',el.sort]]){const v=p.get(k);if(v&&[...s.options].some(o=>o.value===v))s.value=v;}
+ el.pay.checked=p.get('pay')==='1';}
+function writeURL(){const p=new URLSearchParams();if(el.q.value.trim())p.set('q',el.q.value.trim());if(el.company.value)p.set('company',el.company.value);if(el.city.value)p.set('city',el.city.value);if(el.cat.value)p.set('category',el.cat.value);if(el.sort.value!=='newest')p.set('sort',el.sort.value);if(el.pay.checked)p.set('pay','1');
+ const qs=p.toString();history.replaceState(null,'',location.pathname+(qs?'?'+qs:'')+location.hash);}
+function render(){const terms=el.q.value.toLowerCase().split(/\s+/).filter(Boolean);
+ let r=jobs.filter(j=>terms.every(t=>j._hay.includes(t))&&(!el.company.value||j.company===el.company.value)&&(!el.city.value||j._city===el.city.value)&&(!el.cat.value||j._cat===el.cat.value)&&(!el.pay.checked||j._pay!==null));
+ if(el.sort.value==='company')r.sort((a,b)=>a.company.localeCompare(b.company)||a._i-b._i);
+ else if(el.sort.value==='salary'){r=r.filter(j=>j._pay!==null);r.sort((a,b)=>b._pay-a._pay);}
+ else r.sort((a,b)=>a._i-b._i);
+ el.count.textContent='Showing '+r.length+' of '+jobs.length+' jobs'+(el.sort.value==='salary'?' (with pay listed)':'');
+ el.clear.hidden=!(el.q.value||el.company.value||el.city.value||el.cat.value||el.pay.checked||el.sort.value!=='newest');
+ if(!r.length){el.list.innerHTML='<div class="empty" style="grid-column:1/-1"><h3>No jobs match your search.</h3><p>Try fewer keywords or clear the filters.</p><button type="button" class="linkbtn" onclick="document.getElementById(\'clear\').click()">Clear filters</button></div>';writeURL();return;}
+ el.list.innerHTML=r.map(j=>`<article class="job-card"><h3>${esc(j.title)}</h3><p class="job-meta job-company">${esc(j.company)}</p>${j.location?`<p class="job-meta">${esc(j.location)}</p>`:''}${j.salary?`<p class="job-meta pay">${esc(j.salary)}</p>`:''}${j.posted?`<p class="job-meta">Posted ${esc(j.posted)}</p>`:''}<span class="tag">${esc(j._cat)}</span>${j.url?`<a class="button" href="${esc(j.url)}" target="_blank" rel="noopener" aria-label="Apply for ${esc(j.title)} at ${esc(j.company)} (opens employer site)">Apply</a>`:''}</article>`).join('');
+ writeURL();}
+async function init(){try{const res=await fetch('/jobs.json',{cache:'no-cache'});const data=await res.json();
+ jobs=(data.jobs||[]).map((j,i)=>{const o=Object.assign({},j);o.posted=j.posted_date||j.date_posted||j.posted||'';o._i=i;o._city=city(j.location);o._cat=cat(j.title);o._pay=payMax(j.salary);o._req=reqId(j.url);o._hay=[j.title,j.company,j.location,j.salary,o._req,j.url,o._cat].join(' ').toLowerCase();return o;});
+ }catch(e){el.count.textContent='Unable to load jobs right now.';return;}
+ if(!jobs.length){el.count.textContent='Showing 0 jobs';el.list.innerHTML='<div class="empty">No verified listings right now. Check back soon or follow <a href="https://x.com/HSVSpaceJobs">@HSVSpaceJobs</a>.</div>';return;}
+ fill(el.company,counts('company'));fill(el.city,counts('_city'));fill(el.cat,counts('_cat'));
+ readURL();render();
+ let tm;el.q.addEventListener('input',()=>{clearTimeout(tm);tm=setTimeout(render,80);});
+ [el.company,el.city,el.cat,el.sort,el.pay].forEach(x=>x.addEventListener('change',render));
+ el.clear.addEventListener('click',()=>{el.q.value='';el.company.value='';el.city.value='';el.cat.value='';el.sort.value='newest';el.pay.checked=false;render();el.q.focus();});}
+init();})();
 </script>
 <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "e47246e7524d48cba66db6fb6aa896ab"}'></script>
 </body>
