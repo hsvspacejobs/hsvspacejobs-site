@@ -12,9 +12,20 @@ compatibility_date = "2026-09-14"
 [assets]
 directory = "."
 binding = "ASSETS"
-run_worker_first = ["/api/*"]
+run_worker_first = ["/api/*", "/", "/index.html", "/advertise", "/advertise.html"]
 
 # Runtime secrets (NOT in this file; add in Cloudflare AFTER first Worker+code deploy):
 #   wrangler secret put TURNSTILE_SECRET_KEY
 #   wrangler secret put RESEND_API_KEY
 #   wrangler secret put MAIL_FROM
+
+# First-party traffic tracking (no cookies/IP/PII). Events stored as KV key metadata (400-day TTL).
+# Report: python3 /home/box/hsv-job-scout/traffic_report.py
+[[kv_namespaces]]
+binding = "TRAFFIC"
+id = "67f62f0f3a1140a9914a16021a04eaaf"
+
+# Also written to Workers Analytics Engine (needs Account Analytics:Read token scope to query via SQL API).
+[[analytics_engine_datasets]]
+binding = "TRAFFIC_AE"
+dataset = "hsvspacejobs_traffic"

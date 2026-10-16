@@ -234,9 +234,84 @@ async function handleAdvertise(request, env) {
   return json(200, { ok: true });
 }
 
+// ---- First-party traffic tracking (no cookies, no IPs, no PII) ----
+const PAGE_PATHS = new Set(['/', '/index.html', '/advertise', '/advertise.html']);
+const BOT_RE = /bot|crawl|spider|slurp|headless|phantom|puppeteer|playwright|selenium|curl|wget|python|httpclient|okhttp|go-http|java\/|axios|node-fetch|scrapy|facebookexternalhit|preview|monitor|uptime|lighthouse|bingpreview|embedly|quora link|discordbot|telegrambot|whatsapp|slackbot|twitterbot/i;
+const cut = (v, n) => String(v || '').slice(0, n);
+
+function refBucket(ref, selfHost) {
+  if (!ref) return 'direct';
+  let h;
+  try { h = new URL(ref).hostname.toLowerCase().replace(/^www\./, ''); } catch { return 'unknown'; }
+  if (h === selfHost || h.endsWith('.' + selfHost)) return 'internal';
+  if (h === 't.co' || h === 'x.com' || h.endsWith('.x.com') || h === 'twitter.com' || h.endsWith('.twitter.com')) return 'x';
+  return cut(h, 60);
+}
+
+function trafficEvent(request, url, extra) {
+  const ua = request.headers.get('user-agent') || '';
+  const cf = request.cf || {};
+  const bm = cf.botManagement;
+  let bot = BOT_RE.test(ua) || !ua;
+  if (bm && typeof bm.score === 'number') bot = bot || bm.score < 30 || !!bm.verifiedBot;
+  const selfHost = url.hostname.toLowerCase().replace(/^www\./, '');
+  return Object.assign({
+    t: Date.now(),
+    p: cut(url.pathname, 80),
+    r: refBucket(request.headers.get('referer'), selfHost),
+    u: cut(url.searchParams.get('utm_source'), 40),
+    c: cut(cf.country, 2),
+    d: /mobi|android|iphone|ipad/i.test(ua) ? 'mobile' : 'desktop',
+    b: bot ? 1 : 0,
+  }, extra || {});
+}
+
+async function storeEvent(env, ev) {
+  try {
+    if (env.TRAFFIC_AE) {
+      env.TRAFFIC_AE.writeDataPoint({
+        indexes: [ev.e || 'pv'],
+        blobs: [ev.e || 'pv', ev.p, ev.r, ev.u, ev.c, ev.d, ev.co || '', ev.j || ''],
+        doubles: [1, ev.b],
+      });
+    }
+  } catch (e) { console.error('ae_write', String(e)); }
+  try {
+    if (env.TRAFFIC) {
+      // Data lives in key metadata so the report can read it via a key list.
+      const key = `ev:${new Date(ev.t).toISOString()}:${Math.random().toString(36).slice(2, 8)}`;
+      await env.TRAFFIC.put(key, '', { metadata: ev, expirationTtl: 60 * 60 * 24 * 400 });
+    }
+  } catch (e) { console.error('kv_write', String(e)); }
+}
+
+function handleHit(request, env, ctx, url) {
+  if (request.method === 'POST' || request.method === 'GET') {
+    const e = url.searchParams.get('e');
+    if (e === 'apply') {
+      const ref = request.headers.get('referer') || '';
+      let page = '/';
+      try { page = new URL(ref).pathname; } catch {}
+      const ev = trafficEvent(request, url, {
+        e: 'apply',
+        co: cut(url.searchParams.get('company'), 80),
+        j: cut(url.searchParams.get('job'), 120),
+      });
+      ev.p = cut(page, 80);
+      ev.r = 'internal';
+      ctx.waitUntil(storeEvent(env, ev));
+    }
+  }
+  return new Response(null, { status: 204, headers: { 'Cache-Control': 'no-store' } });
+}
+
 export default {
-  async fetch(request, env) {
+  async fetch(request, env, ctx) {
     const url = new URL(request.url);
+
+    if (url.pathname === '/api/hit') {
+      return handleHit(request, env, ctx, url);
+    }
 
     if (url.pathname === '/api/advertise') {
       return handleAdvertise(request, env);
@@ -244,7 +319,12 @@ export default {
 
     // Non-API paths under run_worker_first should still fall through to assets.
     if (env.ASSETS) {
-      return env.ASSETS.fetch(request);
+      const res = await env.ASSETS.fetch(request);
+      const ctype = res.headers.get('content-type') || '';
+      if (request.method === 'GET' && PAGE_PATHS.has(url.pathname) && res.status === 200 && ctype.includes('text/html')) {
+        ctx.waitUntil(storeEvent(env, trafficEvent(request, url, { e: 'pv' })));
+      }
+      return res;
     }
     return new Response('Not found', { status: 404 });
   },

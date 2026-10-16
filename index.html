@@ -346,7 +346,7 @@ function render(){const terms=el.q.value.toLowerCase().split(/\s+/).filter(Boole
  el.count.textContent='Showing '+r.length+' of '+jobs.length+' jobs'+(el.sort.value==='salary'?' (with pay listed)':'');
  el.clear.hidden=!(el.q.value||el.company.value||el.city.value||el.cat.value||el.pay.checked||el.sort.value!=='newest');
  if(!r.length){el.list.innerHTML='<div class="empty" style="grid-column:1/-1"><h3>No jobs match your search.</h3><p>Try fewer keywords or clear the filters.</p><button type="button" class="linkbtn" onclick="document.getElementById(\'clear\').click()">Clear filters</button></div>';writeURL();return;}
- el.list.innerHTML=r.map(j=>`<article class="job-card"><h3>${esc(j.title)}</h3><p class="job-meta job-company">${esc(j.company)}</p>${j.location?`<p class="job-meta">${esc(j.location)}</p>`:''}${j.salary?`<p class="job-meta pay">${esc(j.salary)}</p>`:''}${j.posted?`<p class="job-meta">Posted ${esc(j.posted)}</p>`:''}<span class="tag">${esc(j._cat)}</span>${j.url?`<a class="button" href="${esc(j.url)}" target="_blank" rel="noopener" aria-label="Apply for ${esc(j.title)} at ${esc(j.company)} (opens employer site)">Apply</a>`:''}</article>`).join('');
+ el.list.innerHTML=r.map(j=>`<article class="job-card"><h3>${esc(j.title)}</h3><p class="job-meta job-company">${esc(j.company)}</p>${j.location?`<p class="job-meta">${esc(j.location)}</p>`:''}${j.salary?`<p class="job-meta pay">${esc(j.salary)}</p>`:''}${j.posted?`<p class="job-meta">Posted ${esc(j.posted)}</p>`:''}<span class="tag">${esc(j._cat)}</span>${j.url?`<a class="button apply-link" data-company="${esc(j.company)}" data-job="${esc(j.title)}" href="${esc(j.url)}" target="_blank" rel="noopener" aria-label="Apply for ${esc(j.title)} at ${esc(j.company)} (opens employer site)">Apply</a>`:''}</article>`).join('');
  writeURL();}
 async function init(){try{const res=await fetch('/jobs.json',{cache:'no-cache'});const data=await res.json();
  jobs=(data.jobs||[]).map((j,i)=>{const o=Object.assign({},j);o.posted=j.posted_date||j.date_posted||j.posted||'';o._i=i;o._city=city(j.location);o._cat=cat(j.title);o._pay=payMax(j.salary);o._req=reqId(j.url);o._hay=[j.title,j.company,j.location,j.salary,o._req,j.url,o._cat].join(' ').toLowerCase();return o;});
@@ -357,8 +357,8 @@ async function init(){try{const res=await fetch('/jobs.json',{cache:'no-cache'})
  let tm;el.q.addEventListener('input',()=>{clearTimeout(tm);tm=setTimeout(render,80);});
  [el.company,el.city,el.cat,el.sort,el.pay].forEach(x=>x.addEventListener('change',render));
  el.clear.addEventListener('click',()=>{el.q.value='';el.company.value='';el.city.value='';el.cat.value='';el.sort.value='newest';el.pay.checked=false;render();el.q.focus();});}
+el.list.addEventListener('click',e=>{const a=e.target.closest('a.apply-link');if(!a)return;try{const u='/api/hit?e=apply&company='+encodeURIComponent(a.dataset.company||'')+'&job='+encodeURIComponent(a.dataset.job||'');if(!(navigator.sendBeacon&&navigator.sendBeacon(u)))fetch(u,{method:'POST',keepalive:true});}catch(_){}});
 init();})();
 </script>
-<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "e47246e7524d48cba66db6fb6aa896ab"}'></script>
 </body>
 </html>
