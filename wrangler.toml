@@ -25,7 +25,8 @@ run_worker_first = ["/api/*", "/", "/index.html", "/advertise", "/advertise.html
 binding = "TRAFFIC"
 id = "67f62f0f3a1140a9914a16021a04eaaf"
 
-# Also written to Workers Analytics Engine (needs Account Analytics:Read token scope to query via SQL API).
-[[analytics_engine_datasets]]
-binding = "TRAFFIC_AE"
-dataset = "hsvspacejobs_traffic"
+# Optional: Workers Analytics Engine (code already writes to env.TRAFFIC_AE if bound).
+# Requires enabling AE in the dashboard first, then uncomment; query needs Account Analytics:Read.
+# [[analytics_engine_datasets]]
+# binding = "TRAFFIC_AE"
+# dataset = "hsvspacejobs_traffic"
